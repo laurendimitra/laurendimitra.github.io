@@ -28,7 +28,7 @@ for (var i = 0; i < numberOptions.length; i++) {
 
   var imageCrystal = $("<img>");
   imageCrystal.addClass("crystal-image");
-  imageCrystal.attr("src", "../images/bluemeth.jpg");
+  imageCrystal.attr("src", "../week-4-game-master/assets/images/bluemeth.jpg");
 
   imageCrystal.attr("data-crystalvalue", numberOptions[i]);
 
