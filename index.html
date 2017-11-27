@@ -5,99 +5,239 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo:400,700">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-    <title>Document</title>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Lauren's World</title>
 </head>
 
-
-
 <body>
-    <div class="container">
 
-        <div class="row">
+    <!-- <div class="navbar-fixed"> -->
+    <nav>
+        <div class="nav-wrapper">
+            <img src="LM-logo.png" class="brand-logo right">
+            <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="left hide-on-med-and-down">
 
-            <div class="col-md-4">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Connect</a>
+                </li>
 
-            </div>
-            <div class="col-md-4">
-                <img id="logo" src="assets/images/logo_bb.png">
-                <h1>Click Game</h1>
-            </div>
-            <div class="col-md-4">
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Connect</a>
+                </li>
 
-            </div>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- </div> -->
+
+    <div class="row blur" id="landing"></div>
+    <div id="content">
+        <div class="col s6 offset3 blur-svg">
+            <h1>Lauren Moore</h1>
+            <h3>Front End Developer</h3>
+            <h6>Creating beautiful websites with a hint of retro and a splash of edge.</h6>
+        </div>
+    </div>
+
+    <div class="row">
+        <a name="about"></a>
+        <div class="col s6 offset-s1">
+            <span class="flow-text">
+                <p>Lauren is working to become a full-stack developer and has been a junior front-end developer/content manager
+                    for two years. While Lauren feels strongly and passionately for digital engineering and development,
+                    this was not always the case. Her first love was International Diplomacy and followed closely by Investigatory
+                    Journalism. After a few internships in college she quickly realized she more in love with the idea of
+                    these careers than the actuality of bureaucracy and monopoly owned bias.</p>
+                <p>She first discovered the world of web-design during her departmental honors project in Communications, where
+                    Lauren ambitiously decided to build a website and social media platform to raise awareness of human trafficking
+                    in America. While she knew nothing of web-design or development, WordPress became her best friend. Post-graduation
+                    she took an offer with AmeriCorps at a crisis center for victims of Domestic and Sexual Violence, where
+                    she worked again with Wordpress on developing the center’s website.</p>
+            </span>
+        </div>
+        <div class="col s4">
+            <span class="flow-text">
+                <img src="profilepic.jpeg">
+            </span>
+        </div>
+        <div class="col s2"></div>
+    </div>
+
+
+
+    <div class="row blur" id="aboutsctn"> </div>
+    <div class="row">
+        <div class="col s6"></div>
+        <div class="col s6" id="abouttxt">
+            <p>Post-service she knew she needed to be in the world of digital marketing and thus applied for a management position
+                she was severely under qualified for. That gutsiness as well as her proven track record of learning quickly
+                and tenaciously, landed her a position as a junior web developer and content manager. After almost two years
+                of working in that position, as well as moonlighting on numerous sites, she feels that she has reached the
+                limit of enjoyment gained from managing the content on sites and is eager to learn more and dive deeper in
+                the stack! Her ideal outcome would be to find a career that helps her balance her thirst for knowledge and
+                love of troubleshooting with an impactful organization that shares her desire to leave the world better than
+                she found it.</p>
+
+            <p>Described by her friends and colleagues as a hard worker, a bit of a weirdo, and a high-functioning punk/hippy
+                hybrid, Lauren is an avid coffee drinker and wine enthusiast. In her spare time Lauren likes to play sports,
+                pick things up and put them down at the gym, and do fun things outside. She is also very into painting, singing,
+                and spending time with her friends. Though, she doesn’t have a ton of free time, because she’s working hard
+                to provide a better life for her cat Tiger Lilly.</p>
+        </div>
+    </div>
+
+
+    <div class="row" id "skills">
+        <a name="skills"></a>
+        <div class="col s5 offset-s2">
+            <ul id="staggered-test2">
+                <li>
+                    <h4>
+                        HTML
+                    </h4>
+                    <p>2.5 years</p>
+                </li>
+                <li>
+                    <h4>
+                        CSS
+                    </h4>
+                    <p>2.5 years</p>
+                </li>
+                <li>
+                    <h4>
+                        CSS Frameworks: Bootstrap and Materialize
+                    </h4>
+                    <p>3 months</p>
+                </li>
+                <li>
+                    <h4>
+                        JavaScript
+                    </h4>
+                    <p>3 months</p>
+                </li>
+                <li>
+                    <h4>
+                        jQuery
+                    </h4>
+                    <p>3 months</p>
+                </li>
+                <li>
+                    <h4>
+                        APIs
+                    </h4>
+                    <p>1 month</p>
+                </li>
+                <li>
+                    <h4>
+                        AJAX
+                    </h4>
+                    <p>1 month</p>
+                </li>
+                <li>
+                    <h4>
+                        Firebase
+                    </h4>
+                    <p>1 month</p>
+                </li>
+            </ul>
+        </div>
+        <div class="col s4">
+            <h3>Coming Soon</h3>
+            <ul id="staggered-test">
+                <li>
+                    <h4>
+                        Node.js
+                    </h4>
+                    <p>November</p>
+                </li>
+                <li>
+                    <h4>
+                        MySQL
+                    </h4>
+                    <p>January</p>
+                </li>
+                <li>
+                    <h4>
+                        Express.js
+                    </h4>
+                    <p>January</p>
+                </li>
+                <li>
+                    <h4>
+                        MondoDB
+                    </h4>
+                    <p>February</p>
+                </li>
+                <li>
+                    <h4>
+                        Mongoose ORM
+                    </h4>
+                    <p>February</p>
+                </li>
+                <li>
+                    <h4>
+                        React.js
+                    </h4>
+                    <p>February</p>
+                </li>
+                <li>
+                    <h4>
+                        Java
+                    </h4>
+                    <p>March</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12">
+            <div id="map"></div>
         </div>
 
-        <div class="row">
 
-            <div class="col-md-8">
-                <p>You come home after a day of dealing with rival drug dealers and a round of chemo and find Jesse has already
-                    bagged the latest batch of Blue Sky. Unfortunately, like the screw up Jesse is, he filled the bags but
-                    didn't weigh them. Now one of your biggest clients needs his requested amount met in one hour. You need
-                    to weigh each bag and hit the exact target of your buyers requested amount of meth. each bag of crystals
-                    represents a pile so you may click on each bag more than once. Happy sorting!</p>
-                <div class="row">
-
-                    <div class="col-md-4">
-                        <h2>Weight of Order Placed:</h2>
-                    </div>
-                    <div class="col-md-2">
-                        <h2>
-                            <div id="number-to-guess"></div>
-                        </h2>
-                    </div>
-                    <div class="col-md-4">
-                        <h2>Weight of Bags so far:</h2>
-                    </div>
-                    <div class="col-md-2">
-                        <h2>
-                            <div id="guess"></div>
-                        </h2>
-                    </div>
-
-                </div>
-                <div class="row">
-
-                    <div class="col-md-12">
-                        <div id="crystals">
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <h3>Number of failed attempts to fill the order:
-                            <span id="losses"></span>
-                        </h3>
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Number of orders correctly filled:
-                            <span id="wins"></span>
-                        </h3>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <img src="assets/images/goddamit_jesse.jpg">
-            </div>
-
-        </div>
+    </div>
 
 
-        
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="assets/javascript/game.js"></script>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTdlHc-EXacSyx-2RKXtLs7nLrlMAjGzU&callback=initMap">
+    </script>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 
 </html>
