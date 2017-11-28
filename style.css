@@ -89,18 +89,17 @@ nav .button-collapse i {
     text-shadow: 2px 1px 0px #fff, 5px 3px 0px rgba(0, 0, 0, 0.15);
 }
 
-#image {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
+/* #image {
+    position: fixed; 
+    display: none; 
+    width: 100%; 
+    height: 100%; 
     top: 0; 
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(49, 27, 146, 0.7); /* Black background with opacity */
-    z-index: 2;
-}
+    background-color: rgba(49, 27, 146, 0.7); /* Black background with opacity 
+   } */
 
 #aboutsctn {
     height: 600px;
@@ -137,4 +136,12 @@ nav .button-collapse i {
 
 #staggered-test2 {
     color:black;
+}
+
+hr {
+    color: rgba(49, 27, 146, 1);
+}
+
+.card .card-image img {
+    max-height: 180px;
 }
