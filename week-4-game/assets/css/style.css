@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+
+html,
+body {
+	height: 100%;
+	background-image: url('../images/breaking_bad-3.jpg');
+	background-repeat: repeat repeat;
+	margin:0;
+	position:relative;
+}
+
+h1, h2, h3 { 
+    font-family: 'Arvo', serif;
+    font-weight:700;
+    color:white;
+    text-align:center;
+}
+
+p {
+    font-family: 'Ariel';
+    color: #cccccc;
+    font-size: 1.5em;
+}
+
+
+.crystal-image {
+    height: 25%;
+    width: 25%;
+    padding:15px;
+}
+
+#logo {
+    width:70%;
+    height: 70%;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+#guess, #number-to-guess {
+    font-family: 'Arvo', serif;
+    font-weight:700;
+    color:white;
+    text-align:center;
+}

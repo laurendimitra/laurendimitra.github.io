@@ -1,0 +1,16 @@
+var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
+url += '?' + $.param({
+  'api-key': "27ee0cab99f04488b45526b7bae42efe",
+  'fq' : '',
+  'begin_date' : endY,
+  'end_date': '',
+
+});
+$.ajax({
+  url: url,
+  method: 'GET',
+}).done(function(result) {
+  console.log(result);
+}).fail(function(err) {
+  throw err;
+});
