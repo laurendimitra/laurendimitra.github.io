@@ -1,0 +1,36 @@
+#header {
+    background-color: #123456;
+    color:#ffffff;
+    padding:35px;
+}
+
+
+#buttonsrow-and-form {
+    float: left;
+    padding-top: 20px;
+    margin:50px;
+    text-align: vertical;
+}
+
+#gifsappear {
+    float: left; 
+    padding: 20px;
+    margin: 20px;
+    display: inline;
+    text-align: vertical;
+}
+
+button.show {
+    float: left; 
+    display: inline;
+    text-align: vertical;
+    margin: 5px;
+}
+
+div.gifImage {
+    float: left; 
+    display: inline;
+    text-align: vertical;
+    margin: 5px;
+}
+
