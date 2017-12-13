@@ -164,6 +164,26 @@ hr {
     font-size: 1.5em;
 }
 
+
+/* @media only screen and (max-width: 600px) {
+    .row {
+        padding-top: 20px;
+    }
+    #skills {
+        padding-top: 50px;
+    }
+    #content {
+        position: relative;
+        margin-top: 40%;
+        vertical-align: middle;
+        text-align: center;
+        height: 580px;
+        z-index: 3;
+        color: black;
+        text-shadow: 2px 1px 0px #fff, 5px 3px 0px rgba(0, 0, 0, 0.15);
+    }
+} */
+
 @media only screen and (max-width: 600px) {
     .row {
         padding-top: 20px;
