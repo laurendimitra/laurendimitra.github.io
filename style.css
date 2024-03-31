@@ -40,7 +40,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-    background-color: rgba(49, 27, 146, 0.5);
+    background-color: rgba(38, 166, 114, 0.5);
 }
 
 .brand-logo {
@@ -59,13 +59,13 @@ nav .button-collapse i {
 }
 
 .side-nav li>a:hover {
-    background-color: rgba(49, 27, 146, 0.5);
+    background-color: rgba(38, 166, 114, 0.5);
 }
 
 #landing {
     height: 800px;
     width: 100%;
-    background: linear-gradient(rgba(49, 27, 146, 0.7), rgba(49, 27, 146, 0.7)), url(landingimg.jpg);
+    background: linear-gradient(rgba(38, 166, 114, 0.7), rgba(38, 166, 114, 0.7)), url(landingimg.jpg);
     background-size: cover;
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
